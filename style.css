@@ -74,6 +74,7 @@ body {
 
 .headerButton {
     background-color: white;
+    color: #1F384C;
     border: none;
     width: 105px;
     height: 13px;
@@ -117,6 +118,7 @@ body {
 
 .dashboardMenu button {
     background-color: transparent;
+    color: #767D87;
     border: none;
 }
 
@@ -152,6 +154,8 @@ body {
     min-width: 153px;
     gap: 12px;
     background-color: #50417820;
+    color: #504178;
+    font-size: 18px;
     border-radius: 10px;
     height: 51px;
 }
@@ -279,6 +283,11 @@ body {
     justify-content: space-between;
 }
 
+.titleAndButton h2 {
+    margin-left: 9px;
+    margin-top: 13px;
+}
+
 .titleAndButton button {
     display: flex;
     align-items: center;
@@ -286,10 +295,12 @@ body {
     border-radius: 10px;
     background-color: white;
     border: lightgrey solid 1px;
+    color: #504178;
     width: 150px;
     height: 48px;
     gap: 9px;
     margin-right: 43px;
+    margin-top: 6px;
 }
 
 .titleAndButton img {
@@ -306,6 +317,7 @@ body {
     margin-top: 13px;
     margin-right: 83px;
     margin-left: 31px;
+    color: #1F384C;
 }
 
 .tablePemesan {
@@ -336,6 +348,7 @@ body {
 
 .overviewHead h3 {
     font-size: 18px;
+    color: #1F384C;
     margin-top: 29px;
     margin-left: 32px;
     margin-bottom: 28px;
@@ -355,12 +368,20 @@ body {
 .overviewTable {
     display: flex;
     flex-direction: column;
-    margin: 0 30px
+    margin: 0 30px;
+    color: #464E5F;
 }
 
 .tableSpace {
     border-collapse: collapse;
     width: 100%;
+}
+
+.tableHead {
+    background-color: #F3F6F9;
+    color: #1F384C;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 .tableGrey {
