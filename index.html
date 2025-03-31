@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <img src="/assets/logotype.png" alt="Intelly logo">
+            </div>
+
+            <nav>
+                <div class="headerNavBar">
+                    <div class="searchBar">
+                        <input type="text" placeholder="Search" class="inputHeader">
+                        <img class="loupeIcon" src="/assets/loupe.png" alt="Loupe icon">
+                    </div>
+                    <div class="headerEndNavBar">
+                        <div class="headerEndButton">
+                            <button class="burgerButton"><img src="/assets/burger.png" alt="Burger"></button>
+                            <button class="headerButton">Delicious Burger</button>
+                            <img class="arrowDown" src="/assets/arrowdown.png" alt="Arrow down">
+                        </div>
+                        <div>
+                            <img class="headerNotif" src="/assets/NotifIcon.png" alt="Notif icon">
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="dashboardMenu">
+                <div class="menu">
+                    <h3>menu</h3>
+                    <button id="dashboardButton"><img src="/assets/Dashboard.png" alt="Dashboard"> Dashboard</button>
+                    <ul class="dashboardList">
+                        <li><button><img src="/assets/Box.png" alt="Colis">Order</button></li>
+                        <li><button><img src="/assets/Report.png" alt="Report">Report</button></li>
+                        <li><button><img src="/assets/Track.png" alt="Track">Track</button></li>
+                        <li><button><img src="/assets/Maintainance.png" alt="Maintainance">Maintainance</button></li>
+                    </ul>
+                </div>
+                <div class="system">
+                    <h3>system</h3>
+                    <ul class="dashboardList">
+                        <li><button><img src="/assets/Folder.png" alt="Folder">Master Data</button></li>
+                        <li><button><img src="/assets/User.png" alt="User">User</button></li>
+                        <li><button><img src="/assets/Multi-user.png" alt="Multi User">Role</button></li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="dashboard">
+                <h1>Dashboard</h1>
+                <div class="report">
+                    <div class="dashboardPercent">
+                        <span class="firstSpan"><img src="/assets/Camion.png" alt="Camion"></span>
+                        <div class="percentText">
+                            <div class="percentUp">
+                                <p class="percentNumber">2.409</p>
+                                <img src="/assets/ArrowUp.png" alt="Arrow up">
+                                <p class="percentGreen">2.1%</p>
+                            </div>
+                            <p class="percentName">Jumlah Pemesan</p>
+                        </div>
+                    </div>
+                    <div class="dashboardPercent">
+                        <span class="secondSpan"><img src="/assets/Camion.png" alt="Camion"></span>
+                        <div>
+                            <p class="percentNumber">68.9%</p>
+                            <img src="" alt="">
+                            <p class="percentName">Pesanan Selesai</p>
+                        </div>
+                    </div>
+                    <div class="dashboardPercent">
+                        <span class="thirdSpan"><img src="/assets/Camion.png" alt="Camion"></span>
+                        <div>
+                            <p class="percentNumber">68.9%</p>
+                            <img src="" alt="">
+                            <p class="percentName">KPI Driver</p>
+                        </div>
+                    </div>
+                    <div class="dashboardPercent">
+                        <span class="fourthSpan"><img src="/assets/Camion.png" alt="Camion"></span>
+                        <div>
+                            <p class="percentNumber">3.509</p>
+                            <img src="" alt="">
+                            <p class="percentName">Total Customer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="graphique">
+                    <div class="graphiqueBox">
+                        <div class="titleAndButton">
+                            <h2>Statistik Pemesanan</h2>
+                            <button><img src="/assets/calendar.png" alt="calendar">18/12/2021</button>
+                        </div>
+                        <div class="fullGraphique"></div>
+                    </div>
+                    <div class="customerPemesan">
+                        <div class="titlePemesan">
+                            <h2>Customer Pemesan Terbanyak</h2>
+                        </div>
+                        <div class="tablePemesan">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>PT Javan Cipta Solusi</td>
+                                        <td>450</td>
+                                    </tr>
+                                    <tr>
+                                        <td>CV ABCD</td>
+                                        <td>449</td>
+                                    </tr>
+                                    <tr>
+                                        <td>CV OQURY TRESNA ANJANI</td>
+                                        <td>443</td>
+                                    </tr>
+                                    <tr>
+                                        <td>PT Javan Solusi</td>
+                                        <td>441</td>
+                                    </tr>
+                                    <tr>
+                                        <td>PT Insan Cipta Solusi</td>
+                                        <td>420</td>
+                                    </tr>
+                                    <tr>
+                                        <td>PT Mitra Informatika</td>
+                                        <td>412</td>
+                                    </tr>
+                                    <tr>
+                                        <td>PT Gamatechno Indonesia</td>
+                                        <td>411</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Patra Jasa</td>
+                                        <td>390</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Patra Arun Badak</td>
+                                        <td>387</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Pertamina Corporate University</td>
+                                        <td>376</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Pertamina RU IV</td>
+                                        <td>361</td>
+                                    </tr>
+                                    <tr>
+                                        <td>PT Pertamina Kilang Balikpapan</td>
+                                        <td>355</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="overview">
+                    <div class="overviewHead">
+                        <h3>Overview Pemesanan</h3>
+                        <input type="text" placeholder="Search" class="inputOverview">
+                    </div>
+                    <div class="overviewTable">
+                        <table class="tableSpace">
+                            <tbody>
+                                <tr class="tableGrey">
+                                    <td class="overviewTextCenter">No</td>
+                                    <td>Nama Customer</td>
+                                    <td>Jenis</td>
+                                    <td>Kuantitas</td>
+                                    <td>Tanggal Pengiriman</td>
+                                </tr>
+                                <tr>
+                                    <td class="overviewTextCenter">1</td>
+                                    <td>Brad Simmons</td>
+                                    <td>Pertamax</td>
+                                    <td>2000 Liter</td>
+                                    <td>21 Desember 2021</td>
+                                </tr>
+                                <tr class="tableGrey">
+                                    <td class="overviewTextCenter">2</td>
+                                    <td>Jessie Clarcson</td>
+                                    <td>Turbo</td>
+                                    <td>2000 Liter</td>
+                                    <td>20 Desember 2021</td>
+                                </tr>
+                                <tr>
+                                    <td class="overviewTextCenter">1</td>
+                                    <td>Brad Simmons</td>
+                                    <td>Pertamax</td>
+                                    <td>2000 Liter</td>
+                                    <td>21 Desember 2021</td>
+                                </tr>
+                                <tr class="tableGrey">
+                                    <td class="overviewTextCenter">2</td>
+                                    <td>Jessie Clarcson</td>
+                                    <td>Turbo</td>
+                                    <td>2000 Liter</td>
+                                    <td>20 Desember 2021</td>
+                                </tr>
+                                <tr>
+                                    <td class="overviewTextCenter">1</td>
+                                    <td>Brad Simmons</td>
+                                    <td>Pertamax</td>
+                                    <td>2000 Liter</td>
+                                    <td>21 Desember 2021</td>
+                                </tr>
+                                <tr class="tableGrey">
+                                    <td class="overviewTextCenter">2</td>
+                                    <td>Jessie Clarcson</td>
+                                    <td>Turbo</td>
+                                    <td>2000 Liter</td>
+                                    <td>20 Desember 2021</td>
+                                </tr>
+                                <tr>
+                                    <td class="overviewTextCenter">1</td>
+                                    <td>Brad Simmons</td>
+                                    <td>Pertamax</td>
+                                    <td>2000 Liter</td>
+                                    <td>21 Desember 2021</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="pages">
+            <button class="prevButton">Prev</button>
+            <button class="pageButtonSelected">1</button>
+            <button class="pageButton">2</button>
+            <button class="pageButton">3</button>
+            <button class="pageButton">4</button>
+            <button class="pageButton">5</button>
+            <button class="nextButton">Next</button>
+        </div>
+    </footer>
+</body>
+
+</html>

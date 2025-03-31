@@ -1,0 +1,433 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #F6F8FA;
+    font-family: "Poppins";
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    height: 64px;
+    background-color: white;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    height: 64px;
+    min-width: 110px;
+}
+
+
+.headerNavBar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputHeader {
+    margin: 16px 32px;
+    width: 652px;
+    height: 32px;
+    border-radius: 5px;
+    border: none;
+    background-color: #d1d1d14f;
+    padding-left: 15px;
+}
+
+.searchBar {
+    display: flex;
+}
+
+.loupeIcon {
+    position: relative;
+    top: 40%;
+    right: 8%;
+    width: 12px;
+    height: 12px;
+}
+
+.headerEndNavBar {
+    display: flex;
+    gap: 15px;
+    margin: 16px 0;
+    margin-right: 32px;
+}
+
+.headerEndButton {
+    display: flex;
+}
+
+.burgerButton {
+    background-color: #FFE6CC;
+    border: none;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+
+.headerButton {
+    background-color: white;
+    border: none;
+    width: 105px;
+    height: 13px;
+    font-size: 12px;
+    padding-top: 10px;
+    margin-bottom: 9px;
+}
+
+.arrowDown {
+    height: 20px;
+    width: 20px;
+    object-fit: cover;
+    margin-top: 8px;
+    margin-bottom: 4px;
+    margin-right: 32px;
+}
+
+.headerNotif {
+    margin: 8px 0;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.dashboardMenu {
+    background-color: #01003904;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-left: 24px;
+    padding-right: 12px;
+    height: calc(100vh-65px);
+}
+
+.dashboardMenu ul {
+    list-style: none;
+}
+
+.dashboardMenu button {
+    background-color: transparent;
+    border: none;
+}
+
+.dashboardMenu button:hover {
+    cursor: pointer;
+}
+
+.dashboardMenu h3 {
+    font-size: 11px;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #d1d1d1;
+}
+
+.dashboardMenu img {
+    width: 24px;
+    height: 24px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    margin-left: 10px;
+}
+
+#dashboardButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 26px;
+    margin-right: 30px;
+    min-width: 153px;
+    gap: 12px;
+    background-color: #50417820;
+    border-radius: 10px;
+    height: 51px;
+}
+
+.dashboardList {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+}
+
+.dashboardList li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.dashboardList button {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+
+.system {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    margin-left: 10px;
+}
+
+.system h3 {
+    padding-left: 17px;
+}
+
+
+.dashboard {
+    margin-top: 25px;
+    margin-right: 33px;
+    margin-left: 40px;
+}
+
+.dashboard h1 {
+    font-size: 24px;
+}
+
+.report {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 33px;
+}
+
+.dashboardPercent {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 19px;
+}
+
+.dashboardPercent span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 63px;
+    width: 63px;
+    margin-left: 21px;
+    margin-right: 18px;
+    border-radius: 10px;
+}
+
+.percentUp {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.percentUp img {
+    width: 7px;
+    height: 10px;
+}
+
+.percentNumber {
+    font-size: 24px;
+}
+
+.percentGreen {
+    color: #149D52;
+    font-size: 12px;
+}
+
+.percentName {
+    font-size: 16px;
+    width: 141px;
+    color: #80809C;
+}
+
+.firstSpan {
+    background: linear-gradient(to bottom right, #504178, #FF7B8A);
+}
+
+.secondSpan {
+    background: linear-gradient(to bottom right, #42BA17, #9FF182);
+}
+
+.thirdSpan {
+    background: linear-gradient(to bottom right, #5A6ACF, #FF7B8A);
+}
+
+.fourthSpan {
+    background: linear-gradient(to bottom right, #D32136, #FF7B8A);
+}
+
+.graphique {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    background-color: white;
+    margin-top: 33px;
+}
+
+.titleAndButton {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titleAndButton button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: white;
+    border: lightgrey solid 1px;
+    width: 150px;
+    height: 48px;
+    gap: 9px;
+    margin-right: 43px;
+}
+
+.titleAndButton img {
+    height: 18px;
+    width: 18px;
+}
+
+.customerPemesan {
+    border-left: 0.5px solid #D6D6D6;
+}
+
+.titlePemesan {
+    font-size: 16px;
+    margin-top: 13px;
+    margin-right: 83px;
+    margin-left: 31px;
+}
+
+.tablePemesan {
+    display: flex;
+    flex-direction: column;
+    margin-right: 48px;
+    margin-bottom: 85px;
+    margin-top: 25px;
+    margin-left: 31px;
+    color: #273240;
+}
+
+.tablePemesan td {
+    padding-bottom: 8px;
+}
+
+.overview {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 29px;
+}
+
+.overviewHead {
+    display: flex;
+    justify-content: space-between;
+}
+
+.overviewHead h3 {
+    font-size: 18px;
+    margin-top: 29px;
+    margin-left: 32px;
+    margin-bottom: 28px;
+}
+
+.inputOverview {
+    border-radius: 10px;
+    border: none;
+    background-color: #d1d1d14f;
+    margin-right: 37px;
+    margin-top: 15px;
+    margin-bottom: 19px;
+    padding-left: 30px;
+}
+
+
+.overviewTable {
+    display: flex;
+    flex-direction: column;
+    margin: 0 30px
+}
+
+.tableSpace {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tableGrey {
+    background-color: #F3F6F9;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+.tableSpace td {
+    padding-top: 16px;
+    padding-bottom: 15px;
+}
+
+.overviewTextCenter {
+    text-align: center;
+    padding-right: 12px;
+
+}
+
+.pages {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 10px;
+    margin-top: 24px;
+    gap: 6px;
+
+}
+
+
+.pages button {
+    border: none;
+}
+
+.pages button:hover {
+    cursor: pointer;
+    border: 1px solid purple;
+}
+
+.pageButton {
+    border-radius: 6px;
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    color: #BCBCBC;
+}
+
+.pageButtonSelected {
+    border-radius: 6px;
+    height: 35px;
+    width: 35px;
+    background-color: #504178;
+    color: white;
+}
+
+.prevButton {
+    height: 64px;
+    width: 64px;
+    color: #86868C;
+    background-color: #F6F8FA;
+}
+
+.nextButton {
+    height: 64px;
+    width: 64px;
+    color: #010039;
+    background-color: #F6F8FA;
+    margin-right: 13px;
+}
